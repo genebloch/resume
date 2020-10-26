@@ -1,0 +1,39 @@
+.social-icon {
+    background-color: #242424;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+    margin: 5px 5px;
+    border-radius: 3px;
+    transition-duration: .3s;
+}
+
+.fa-instagram:hover {
+    color: #ff4f4f;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.fa-telegram-plane:hover {
+    color: #1f71ff;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.fa-github:hover {
+    color: #707070;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.fas.fa-map-marker-alt {
+    color: rgb(44 44 44);
+    margin: 0 5px;
+}
+
+.location {
+    margin-top: -5px;
+    display: inline-flex;
+}

@@ -1,0 +1,72 @@
+@import "assets/styles/intro-page.css";
+@import "assets/styles/about-page.css";
+@import "assets/styles/hobbies.css";
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Solway', serif;
+    color: #fff;
+    margin: 0;
+}
+
+p, span {
+    font-size: 1.1em;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0;
+    color: rgb(44 44 44);;
+}
+
+.section {
+    text-align: center;
+}
+
+.block {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+    padding: 10px 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .block {
+       width: 80%;
+    }
+
+    .fp-controlArrow.fp-prev {
+        visibility: hidden;
+    }
+
+    .fp-controlArrow.fp-next {
+        visibility: hidden;
+    }
+
+    .fp-slidesNav {
+        visibility: visible !important;
+    }
+}
+
+.fp-controlArrow.fp-prev {
+    opacity: 0.5;
+    left: 50px;
+    transition-duration: .3s;
+}
+
+.fp-controlArrow.fp-next {
+    opacity: 0.5;
+    right: 50px;
+    transition-duration: .3s;
+}
+
+.fp-controlArrow.fp-prev:hover, .fp-controlArrow.fp-next:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+.fp-slidesNav {
+    visibility: hidden;
+}
